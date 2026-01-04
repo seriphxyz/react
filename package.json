@@ -1,6 +1,6 @@
 {
   "name": "@seriphxyz/react",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "React hooks for Seriph widgets (forms, comments, reactions, subscriptions)",
   "repository": {
     "type": "git",
