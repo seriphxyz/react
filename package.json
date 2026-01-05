@@ -1,0 +1,52 @@
+{
+  "name": "@seriphxyz/react",
+  "version": "0.1.11",
+  "description": "React hooks for Seriph widgets (forms, comments, reactions, subscriptions)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriphxyz/react.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "homepage": "https://seriph.xyz",
+  "author": "Tim Marks <tim@imothee.xyz>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "react",
+    "seriph",
+    "forms",
+    "comments",
+    "reactions",
+    "subscribe",
+    "hooks"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@seriphxyz/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0",
+    "typescript": "^5.7.3"
+  }
+}
